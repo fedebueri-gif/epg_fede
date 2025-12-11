@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="fede-epg-auto" source-info-url="https://github.com/fedebueri-gif/epg_fede">
+
+  <!-- Fede EPG – Atualização Automática -->
+  <!-- Arquivo base: este EPG é atualizado automaticamente por script diário -->
+
+  <!-- HBO -->
+  <channel id="HBOHD">
+    <display-name>HBO</display-name>
+  </channel>
+
+  <channel id="HBO2HD">
+    <display-name>HBO 2</display-name>
+  </channel>
+
+  <channel id="HBOFamilyHD">
+    <display-name>HBO Family</display-name>
+  </channel>
+
+  <channel id="HBOPlusHD">
+    <display-name>HBO Plus</display-name>
+  </channel>
+
+  <channel id="HBOSignatureHD">
+    <display-name>HBO Signature</display-name>
+  </channel>
+
+  <channel id="HBOXtremeHD">
+    <display-name>HBO Xtreme</display-name>
+  </channel>
+
+  <channel id="HBOMundiHD">
+    <display-name>HBO Mundi</display-name>
+  </channel>
+
+  <!-- Telecine -->
+  <channel id="TelecinePremiumHD">
+    <display-name>Telecine Premium</display-name>
+  </channel>
+
+  <channel id="TelecineActionHD">
+    <display-name>Telecine Action</display-name>
+  </channel>
+
+  <channel id="TelecineFunHD">
+    <display-name>Telecine Fun</display-name>
+  </channel>
+
+  <channel id="TelecineTouchHD">
+    <display-name>Telecine Touch</display-name>
+  </channel>
+
+  <channel id="TelecinePipocaHD">
+    <display-name>Telecine Pipoca</display-name>
+  </channel>
+
+  <channel id="TelecineCultHD">
+    <display-name>Telecine Cult</display-name>
+  </channel>
+
+  <!-- Outros canais -->
+  <channel id="MegapixSD">
+    <display-name>Megapix</display-name>
+  </channel>
+
+  <channel id="ParamountSD">
+    <display-name>Paramount</display-name>
+  </channel>
+
+  <channel id="SpaceHD">
+    <display-name>Space</display-name>
+  </channel>
+
+  <channel id="CinemaxSD">
+    <display-name>Cinemax</display-name>
+  </channel>
+
+  <!-- Programação será preenchida automaticamente no script -->
+</tv>
