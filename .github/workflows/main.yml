@@ -1,0 +1,26 @@
+name: Atualizar EPG Automático
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # Atualiza a cada 6 horas
+  workflow_dispatch:        # Permite rodar manualmente
+
+jobs:
+  atualiza_epg:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clonar repositório
+      uses: actions/checkout@v3
+
+    - name: Baixar EPG principal
+      run: |
+        curl -L -o epg.xml "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/epg.xml"
+
+    - name: Confirmar atualização
+      run: |
+        git config --global user.name "FedeBot"
+        git config --global user.email "fede@example.com"
+        git add epg.xml
+        git commit -m "EPG atualizado automaticamente" || echo "Nenhuma atualização"
+        git push
