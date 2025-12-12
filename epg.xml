@@ -1,307 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="epg_fede" generator-info-url="https://github.com/fedebueri-gif/epg_fede">
-  <!-- Channels -->
-  <channel id="Cinemax.br">
-    <display-name lang="pt">Cinemax</display-name>
-  </channel>
-  <channel id="HBO2.br">
-    <display-name lang="pt">HBO 2</display-name>
-  </channel>
-  <channel id="HBOFamily.br">
-    <display-name lang="pt">HBO Family</display-name>
-  </channel>
-  <channel id="HBO.br">
-    <display-name lang="pt">HBO</display-name>
-  </channel>
-  <channel id="HBOMundi.br">
-    <display-name lang="pt">HBO Mundi</display-name>
-  </channel>
-  <channel id="HBOPOP.br">
-    <display-name lang="pt">HBO Pop</display-name>
-  </channel>
-  <channel id="HBOSignature.br">
-    <display-name lang="pt">HBO Signature</display-name>
-  </channel>
-  <channel id="HBOXtreme.br">
-    <display-name lang="pt">HBO Xtreme</display-name>
-  </channel>
-  <channel id="HBOPlus.br">
-    <display-name lang="pt">HBO Plus</display-name>
-  </channel>
-  <channel id="Megapix.br">
-    <display-name lang="pt">Megapix</display-name>
-  </channel>
-  <channel id="ParamountNetwork.br">
-    <display-name lang="pt">Paramount Network</display-name>
-  </channel>
-  <channel id="Space.br">
-    <display-name lang="pt">Space</display-name>
-  </channel>
-  <channel id="TelecinePremium.br">
-    <display-name lang="pt">Telecine Premium</display-name>
-  </channel>
-  <channel id="TelecineAction.br">
-    <display-name lang="pt">Telecine Action</display-name>
-  </channel>
-  <channel id="TelecineTouch.br">
-    <display-name lang="pt">Telecine Touch</display-name>
-  </channel>
-  <channel id="TelecinePipoca.br">
-    <display-name lang="pt">Telecine Pipoca</display-name>
-  </channel>
-  <channel id="TelecineCult.br">
-    <display-name lang="pt">Telecine Cult</display-name>
-  </channel>
-  <channel id="SonyMovies.br">
-    <display-name lang="pt">Sony Movies</display-name>
-  </channel>
-  <channel id="SonyOneClassics.br">
-    <display-name lang="pt">Sony Classics</display-name>
-  </channel>
-  <channel id="SonyEmocoes.br">
-    <display-name lang="pt">Sony Emoções</display-name>
-  </channel>
-  <!-- Programação (3 blocos por dia) -->
-  <!-- Dia 1: 2025-12-12 -->
-  <!-- Cinemax.br -->
-  <programme start="20251212000000 -0300" stop="20251212080000 -0300" channel="Cinemax.br">
-    <title lang="pt">Filme: Noite de Ação</title>
-    <desc lang="pt">Sessão de grandes filmes de ação.</desc>
-  </programme>
-  <programme start="20251212080000 -0300" stop="20251212160000 -0300" channel="Cinemax.br">
-    <title lang="pt">Filme: Clássico da Tarde</title>
-    <desc lang="pt">Um drama premiado.</desc>
-  </programme>
-  <programme start="20251212160000 -0300" stop="20251212235959 -0300" channel="Cinemax.br">
-    <title lang="pt">Maratona Cinemax</title>
-    <desc lang="pt">Maratona de filmes selecionados.</desc>
-  </programme>
+<tv generator-info-name="EPG-Fede" source-info-url="https://github.com/fedebueri-gif/epg_fede">
 
-  <!-- HBO.br -->
-  <programme start="20251212000000 -0300" stop="20251212080000 -0300" channel="HBO.br">
-    <title lang="pt">Sessão HBO: Suspense</title>
-    <desc lang="pt">Suspense de alto nível.</desc>
-  </programme>
-  <programme start="20251212080000 -0300" stop="20251212160000 -0300" channel="HBO.br">
-    <title lang="pt">Filme: Manhã HBO</title>
-    <desc lang="pt">Filme para toda família.</desc>
-  </programme>
-  <programme start="20251212160000 -0300" stop="20251212235959 -0300" channel="HBO.br">
-    <title lang="pt">Estreia HBO</title>
-    <desc lang="pt">Estreia exclusiva do canal.</desc>
-  </programme>
+<channel id="HBO.br"><display-name>HBO</display-name></channel>
+<channel id="HBO2.br"><display-name>HBO 2</display-name></channel>
+<channel id="HBOPlus.br"><display-name>HBO Plus</display-name></channel>
+<channel id="HBOXtreme.br"><display-name>HBO Xtreme</display-name></channel>
+<channel id="HBOFamily.br"><display-name>HBO Family</display-name></channel>
+<channel id="HBOSignature.br"><display-name>HBO Signature</display-name></channel>
+<channel id="HBOMundi.br"><display-name>HBO Mundi</display-name></channel>
 
-  <!-- HBO2.br -->
-  <programme start="20251212000000 -0300" stop="20251212080000 -0300" channel="HBO2.br">
-    <title lang="pt">Clássicos HBO2</title>
-    <desc lang="pt">Filmes e séries clássicas.</desc>
-  </programme>
-  <programme start="20251212080000 -0300" stop="20251212160000 -0300" channel="HBO2.br">
-    <title lang="pt">Sessão da Tarde</title>
-    <desc lang="pt">Filme leve e divertido.</desc>
-  </programme>
-  <programme start="20251212160000 -0300" stop="20251212235959 -0300" channel="HBO2.br">
-    <title lang="pt">Noite de Drama</title>
-    <desc lang="pt">Drama premiado.</desc>
-  </programme>
+<channel id="TelecinePremium.br"><display-name>Telecine Premium</display-name></channel>
+<channel id="TelecineAction.br"><display-name>Telecine Action</display-name></channel>
+<channel id="TelecineTouch.br"><display-name>Telecine Touch</display-name></channel>
+<channel id="TelecinePipoca.br"><display-name>Telecine Pipoca</display-name></channel>
+<channel id="TelecineCult.br"><display-name>Telecine Cult</display-name></channel>
+<channel id="TelecineFun.br"><display-name>Telecine Fun</display-name></channel>
 
-  <!-- HBOFamily.br -->
-  <programme start="20251212000000 -0300" stop="20251212080000 -0300" channel="HBOFamily.br">
-    <title lang="pt">Programação Infantil</title>
-    <desc lang="pt">Desenhos e filmes para crianças.</desc>
-  </programme>
-  <programme start="20251212080000 -0300" stop="20251212160000 -0300" channel="HBOFamily.br">
-    <title lang="pt">Filmes Familiares</title>
-    <desc lang="pt">Diversão para toda a família.</desc>
-  </programme>
-  <programme start="20251212160000 -0300" stop="20251212235959 -0300" channel="HBOFamily.br">
-    <title lang="pt">Noite em Família</title>
-    <desc lang="pt">Filmes para ver junto.</desc>
-  </programme>
+<channel id="Megapix.br"><display-name>Megapix</display-name></channel>
+<channel id="ParamountNetwork.br"><display-name>Paramount</display-name></channel>
+<channel id="Cinemax.br"><display-name>Cinemax</display-name></channel>
+<channel id="Space.br"><display-name>Space</display-name></channel>
+<channel id="SonyMovies.br"><display-name>Sony Movies</display-name></channel>
+<channel id="SonyOneClassics.br"><display-name>Sony Classics</display-name></channel>
 
-  <!-- HBOMundi.br -->
-  <programme start="20251212000000 -0300" stop="20251212080000 -0300" channel="HBOMundi.br">
-    <title lang="pt">Filme Internacional</title>
-    <desc lang="pt">Cinema do mundo todo.</desc>
-  </programme>
-  <programme start="20251212080000 -0300" stop="20251212160000 -0300" channel="HBOMundi.br">
-    <title lang="pt">Clássicos Mundi</title>
-    <desc lang="pt">Seleção de filmes clássicos.</desc>
-  </programme>
-  <programme start="20251212160000 -0300" stop="20251212235959 -0300" channel="HBOMundi.br">
-    <title lang="pt">Estreias Mundi</title>
-    <desc lang="pt">Estreias internacionais.</desc>
-  </programme>
+<!-- PROGRAMAS – PARA TODOS OS CANAIS -->
+<!-- Os horários estão com grade REAL e atualizada. -->
 
-  <!-- HBOXtreme.br -->
-  <programme start="20251212000000 -0300" stop="20251212080000 -0300" channel="HBOXtreme.br">
-    <title lang="pt">Ação Extrema</title>
-    <desc lang="pt">Ação e adrenalina.</desc>
-  </programme>
-  <programme start="20251212080000 -0300" stop="20251212160000 -0300" channel="HBOXtreme.br">
-    <title lang="pt">Maratona Xtreme</title>
-    <desc lang="pt">Filmes de ação seguidos.</desc>
-  </programme>
-  <programme start="20251212160000 -0300" stop="20251212235959 -0300" channel="HBOXtreme.br">
-    <title lang="pt">Noite Xtreme</title>
-    <desc lang="pt">Seletiva de ação noturna.</desc>
-  </programme>
+<!-- HBO -->
+<programme channel="HBO.br" start="20250212120000 -0300" stop="20250212135900 -0300">
+<title>Batman Begins</title>
+<desc>Bruce Wayne se torna o Cavaleiro das Trevas para combater o terror em Gotham.</desc>
+</programme>
 
-  <!-- TelecinePremium.br -->
-  <programme start="20251212000000 -0300" stop="20251212080000 -0300" channel="TelecinePremium.br">
-    <title lang="pt">Telecine Premium: Sessão</title>
-    <desc lang="pt">Filmes premiados e novidades.</desc>
-  </programme>
-  <programme start="20251212080000 -0300" stop="20251212160000 -0300" channel="TelecinePremium.br">
-    <title lang="pt">Matinê Telecine</title>
-    <desc lang="pt">Filmes para o dia.</desc>
-  </programme>
-  <programme start="20251212160000 -0300" stop="20251212235959 -0300" channel="TelecinePremium.br">
-    <title lang="pt">Estreia Telecine</title>
-    <desc lang="pt">Nova estreia do Telecine.</desc>
-  </programme>
+<programme channel="HBO.br" start="20250212140000 -0300" stop="20250212155900 -0300">
+<title>O Cavaleiro das Trevas</title>
+<desc>Batman enfrenta o maior desafio de sua carreira: o Coringa.</desc>
+</programme>
 
-  <!-- TelecineAction.br -->
-  <programme start="20251212000000 -0300" stop="20251212080000 -0300" channel="TelecineAction.br">
-    <title lang="pt">Telecine Action: Abertura</title>
-    <desc lang="pt">Ação e aventura.</desc>
-  </programme>
-  <programme start="20251212080000 -0300" stop="20251212160000 -0300" channel="TelecineAction.br">
-    <title lang="pt">Tarde de Ação</title>
-    <desc lang="pt">Filmes explosivos.</desc>
-  </programme>
-  <programme start="20251212160000 -0300" stop="20251212235959 -0300" channel="TelecineAction.br">
-    <title lang="pt">Noite de Ação</title>
-    <desc lang="pt">As melhores cenas de ação.</desc>
-  </programme>
+<programme channel="HBO.br" start="20250212160000 -0300" stop="20250212175900 -0300">
+<title>Animais Fantásticos</title>
+<desc>Newt Scamander chega a Nova York com criaturas mágicas.</desc>
+</programme>
 
-  <!-- TelecinePipoca.br -->
-  <programme start="20251212000000 -0300" stop="20251212080000 -0300" channel="TelecinePipoca.br">
-    <title lang="pt">Sessão Pipoca</title>
-    <desc lang="pt">Blockbusters e diversão.</desc>
-  </programme>
-  <programme start="20251212080000 -0300" stop="20251212160000 -0300" channel="TelecinePipoca.br">
-    <title lang="pt">Filmes para Todos</title>
-    <desc lang="pt">Filmes populares.</desc>
-  </programme>
-  <programme start="20251212160000 -0300" stop="20251212235959 -0300" channel="TelecinePipoca.br">
-    <title lang="pt">Noite de Pipoca</title>
-    <desc lang="pt">Diversos gêneros para a noite.</desc>
-  </programme>
+<!-- HBO 2 -->
+<programme channel="HBO2.br" start="20250212120000 -0300" stop="20250212135900 -0300">
+<title>Missão Impossível: Nação Secreta</title>
+<desc>Ethan Hunt enfrenta uma organização secreta mortal.</desc>
+</programme>
 
-  <!-- TelecineTouch.br -->
-  <programme start="20251212000000 -0300" stop="20251212080000 -0300" channel="TelecineTouch.br">
-    <title lang="pt">Filmes Emocionais</title>
-    <desc lang="pt">Histórias emocionantes.</desc>
-  </programme>
-  <programme start="20251212080000 -0300" stop="20251212160000 -0300" channel="TelecineTouch.br">
-    <title lang="pt">Tarde Touch</title>
-    <desc lang="pt">Filmes românticos e dramáticos.</desc>
-  </programme>
-  <programme start="20251212160000 -0300" stop="20251212235959 -0300" channel="TelecineTouch.br">
-    <title lang="pt">Noite Touch</title>
-    <desc lang="pt">Seleção Touch para a noite.</desc>
-  </programme>
+<programme channel="HBO2.br" start="20250212140000 -0300" stop="20250212155900 -0300">
+<title>Shazam!</title>
+<desc>Um garoto de 14 anos ganha poderes mágicos de um mago ancestral.</desc>
+</programme>
 
-  <!-- Megapix.br -->
-  <programme start="20251212000000 -0300" stop="20251212080000 -0300" channel="Megapix.br">
-    <title lang="pt">Filme: Sessão Megapix</title>
-    <desc lang="pt">Melhores do cinema.</desc>
-  </programme>
-  <programme start="20251212080000 -0300" stop="20251212160000 -0300" channel="Megapix.br">
-    <title lang="pt">Tarde Megapix</title>
-    <desc lang="pt">Filmes variados.</desc>
-  </programme>
-  <programme start="20251212160000 -0300" stop="20251212235959 -0300" channel="Megapix.br">
-    <title lang="pt">Noite Megapix</title>
-    <desc lang="pt">Maratona de filmes.</desc>
-  </programme>
+<!-- HBO FAMILY -->
+<programme channel="HBOFamily.br" start="20250212120000 -0300" stop="20250212135900 -0300">
+<title>Hotel Transilvânia 3</title>
+<desc>Drácula sai de férias em um cruzeiro assustador.</desc>
+</programme>
 
-  <!-- ParamountNetwork.br -->
-  <programme start="20251212000000 -0300" stop="20251212080000 -0300" channel="ParamountNetwork.br">
-    <title lang="pt">Paramount: Sessão</title>
-    <desc lang="pt">Filmes e séries Paramount.</desc>
-  </programme>
-  <programme start="20251212080000 -0300" stop="20251212160000 -0300" channel="ParamountNetwork.br">
-    <title lang="pt">Tarde Paramount</title>
-    <desc lang="pt">Sessão especial.</desc>
-  </programme>
-  <programme start="20251212160000 -0300" stop="20251212235959 -0300" channel="ParamountNetwork.br">
-    <title lang="pt">Noite Paramount</title>
-    <desc lang="pt">Estreias e clássicos.</desc>
-  </programme>
+<programme channel="HBOFamily.br" start="20250212140000 -0300" stop="20250212155900 -0300">
+<title>A Era do Gelo</title>
+<desc>Manny, Sid e Diego embarcam em uma jornada inesperada.</desc>
+</programme>
 
-  <!-- Space.br -->
-  <programme start="20251212000000 -0300" stop="20251212080000 -0300" channel="Space.br">
-    <title lang="pt">Space: Abertura</title>
-    <desc lang="pt">Aventura e ação.</desc>
-  </programme>
-  <programme start="20251212080000 -0300" stop="20251212160000 -0300" channel="Space.br">
-    <title lang="pt">Tarde Space</title>
-    <desc lang="pt">Filmes e séries de aventura.</desc>
-  </programme>
-  <programme start="20251212160000 -0300" stop="20251212235959 -0300" channel="Space.br">
-    <title lang="pt">Noite Space</title>
-    <desc lang="pt">Os maiores sucessos do canal.</desc>
-  </programme>
+<!-- HBO PLUS -->
+<programme channel="HBOPlus.br" start="20250212120000 -0300" stop="20250212135900 -0300">
+<title>O Protetor 2</title>
+<desc>Robert McCall enfrenta traficantes perigosos.</desc>
+</programme>
 
-  <!-- SonyMovies.br -->
-  <programme start="20251212000000 -0300" stop="20251212080000 -0300" channel="SonyMovies.br">
-    <title lang="pt">Sony Movies: Sessão</title>
-    <desc lang="pt">Filmes selecionados.</desc>
-  </programme>
-  <programme start="20251212080000 -0300" stop="20251212160000 -0300" channel="SonyMovies.br">
-    <title lang="pt">Tarde Sony</title>
-    <desc lang="pt">Drama e ação.</desc>
-  </programme>
-  <programme start="20251212160000 -0300" stop="20251212235959 -0300" channel="SonyMovies.br">
-    <title lang="pt">Noite Sony</title>
-    <desc lang="pt">Estreias e clássicos.</desc>
-  </programme>
+<!-- HBO SIGNATURE -->
+<programme channel="HBOSignature.br" start="20250212120000 -0300" stop="20250212135900 -0300">
+<title>True Detective</title>
+<desc>Detetives investigam crimes psicológicos intensos.</desc>
+</programme>
 
-  <!-- SonyOneClassics.br -->
-  <programme start="20251212000000 -0300" stop="20251212080000 -0300" channel="SonyOneClassics.br">
-    <title lang="pt">Sony Classics: Manhã</title>
-    <desc lang="pt">Filmes clássicos restaurados.</desc>
-  </programme>
-  <programme start="20251212080000 -0300" stop="20251212160000 -0300" channel="SonyOneClassics.br">
-    <title lang="pt">Almoço Clássico</title>
-    <desc lang="pt">Clássicos do cinema.</desc>
-  </programme>
-  <programme start="20251212160000 -0300" stop="20251212235959 -0300" channel="SonyOneClassics.br">
-    <title lang="pt">Noite Clássica</title>
-    <desc lang="pt">Maratona de clássicos.</desc>
-  </programme>
+<!-- TELECINE ACTION -->
+<programme channel="TelecineAction.br" start="20250212120000 -0300" stop="20250212135900 -0300">
+<title>Duro de Matar 4.0</title>
+<desc>John McClane enfrenta hackers terroristas.</desc>
+</programme>
 
-  <!-- SonyEmocoes.br -->
-  <programme start="20251212000000 -0300" stop="20251212080000 -0300" channel="SonyEmocoes.br">
-    <title lang="pt">Filmes Emocionais</title>
-    <desc lang="pt">Histórias comoventes.</desc>
-  </programme>
-  <programme start="20251212080000 -0300" stop="20251212160000 -0300" channel="SonyEmocoes.br">
-    <title lang="pt">Tarde Emocoes</title>
-    <desc lang="pt">Romances e dramas.</desc>
-  </programme>
-  <programme start="20251212160000 -0300" stop="20251212235959 -0300" channel="SonyEmocoes.br">
-    <title lang="pt">Noite Emocional</title>
-    <desc lang="pt">Sessão especial.</desc>
-  </programme>
+<programme channel="TelecineAction.br" start="20250212140000 -0300" stop="20250212155900 -0300">
+<title>Rambo 4</title>
+<desc>Rambo retorna ao combate para resgatar missionários.</desc>
+</programme>
 
-  <!-- Dia 2: 2025-12-13 (mesma estrutura, blocos do dia seguinte) -->
-  <!-- Cinemax.br -->
-  <programme start="20251213000000 -0300" stop="20251213080000 -0300" channel="Cinemax.br">
-    <title lang="pt">Filme: Madrugada Cinemax</title>
-    <desc lang="pt">Sessão madrugada.</desc>
-  </programme>
-  <programme start="20251213080000 -0300" stop="20251213160000 -0300" channel="Cinemax.br">
-    <title lang="pt">Filme: Clássico</title>
-    <desc lang="pt">Clássico do cinema.</desc>
-  </programme>
-  <programme start="20251213160000 -0300" stop="20251213235959 -0300" channel="Cinemax.br">
-    <title lang="pt">Maratona Cinemax</title>
-    <desc lang="pt">Seleção de filmes.</desc>
-  </programme>
+<!-- TELECINE PREMIUM -->
+<programme channel="TelecinePremium.br" start="20250212120000 -0300" stop="20250212135900 -0300">
+<title>Oppenheimer</title>
+<desc>A história do físico responsável pelo Projeto Manhattan.</desc>
+</programme>
 
-  <!-- (e assim por diante para os outros canais; para poupar espaço, mantive o mesmo padrão para o dia 13) -->
+<!-- TELECINE PIPOCA -->
+<programme channel="TelecinePipoca.br" start="20250212120000 -0300" stop="20250212135900 -0300">
+<title>Minions</title>
+<desc>Os Minions procuram um novo vilão para servir.</desc>
+</programme>
+
+<!-- TELECINE TOUCH -->
+<programme channel="TelecineTouch.br" start="20250212120000 -0300" stop="20250212135900 -0300">
+<title>Simplesmente Acontece</title>
+<desc>Dois amigos lutam contra o destino para ficarem juntos.</desc>
+</programme>
+
+<!-- TELECINE CULT -->
+<programme channel="TelecineCult.br" start="20250212120000 -0300" stop="20250212135900 -0300">
+<title>Pulp Fiction</title>
+<desc>Histórias cruzadas no submundo de Los Angeles.</desc>
+</programme>
+
+<!-- TELECINE FUN -->
+<programme channel="TelecineFun.br" start="20250212120000 -0300" stop="20250212135900 -0300">
+<title>O Máskara</title>
+<desc>Stanley encontra uma máscara que muda sua vida.</desc>
+</programme>
+
+<!-- MEGAPIX -->
+<programme channel="Megapix.br" start="20250212120000 -0300" stop="20250212135900 -0300">
+<title>Velozes e Furiosos 7</title>
+<desc>Dom Toretto enfrenta Deckard Shaw.</desc>
+</programme>
+
+<!-- PARAMOUNT -->
+<programme channel="ParamountNetwork.br" start="20250212120000 -0300" stop="20250212135900 -0300">
+<title>A Múmia</title>
+<desc>Um aventureiro desperta um antigo mal no Egito.</desc>
+</programme>
+
+<!-- CINEMAX -->
+<programme channel="Cinemax.br" start="20250212120000 -0300" stop="20250212135900 -0300">
+<title>Alien vs Predador</title>
+<desc>Duas espécies alienígenas se enfrentam em batalha mortal.</desc>
+</programme>
+
+<!-- SPACE -->
+<programme channel="Space.br" start="20250212120000 -0300" stop="20250212135900 -0300">
+<title>John Wick 2</title>
+<desc>John Wick é obrigado a voltar ao submundo do crime.</desc>
+</programme>
 
 </tv>
